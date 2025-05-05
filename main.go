@@ -9,6 +9,7 @@ func task(name string) {
 	fmt.Println("Starting task:", name)
 	time.Sleep(1 * time.Second)
 	fmt.Println("Finished task:", name)
+	fmt.Println("Concurrency")
 }
 
 func main() {
